@@ -40,7 +40,7 @@ see the `Developer Guide`_.
 Using Python
 ------------
 
-Installable Python kits, and information about using Python, are available at
+Installable Python kits and information about using Python are available at
 `python.org`_.
 
 .. _python.org: https://www.python.org/
@@ -70,7 +70,7 @@ section of the `Developer Guide`_ for current detailed information on
 dependencies for various Linux distributions and macOS.
 
 On macOS, there are additional configure and build options related
-to macOS framework and universal builds.  Refer to `Mac/README.rst
+to the macOS framework and universal builds.  Refer to `Mac/README.rst
 <https://github.com/python/cpython/blob/main/Mac/README.rst>`_.
 
 On Windows, see `PCbuild/readme.txt
@@ -140,7 +140,7 @@ accounting of changes can only be gleaned from the `commit history
 <https://github.com/python/cpython/commits/main>`_.
 
 If you want to install multiple versions of Python, see the section below
-entitled "Installing multiple versions".
+titled "Installing multiple versions".
 
 
 Documentation
@@ -172,7 +172,7 @@ Testing
 
 To test the interpreter, type ``make test`` in the top-level directory.  The
 test set produces some output.  You can generally ignore the messages about
-skipped tests due to optional features which can't be imported.  If a message
+skipped tests due to optional features that can't be imported.  If a message
 is printed about a failed test or a traceback or core dump is produced,
 something is wrong.
 
@@ -180,7 +180,7 @@ By default, tests are prevented from overusing resources like disk space and
 memory.  To enable these tests, run ``make testall``.
 
 If any tests fail, you can re-run the failing test(s) in verbose mode.  For
-example, if ``test_os`` and ``test_gdb`` failed, you can run::
+example, if ``test_os`` and ``test_gdb`` fail, you can run::
 
     make test TESTOPTS="-v test_os test_gdb"
 
@@ -215,10 +215,10 @@ Issue Tracker and Mailing List
 ------------------------------
 
 Bug reports are welcome!  You can use Github to `report bugs
-<https://github.com/python/cpython/issues>`_, and/or `submit pull requests
+<https://github.com/python/cpython/issues>`_ and/or `submit pull requests
 <https://github.com/python/cpython/pulls>`_.
 
-You can also follow development discussion on the `python-dev mailing list
+You can also follow the development discussion on the `python-dev mailing list
 <https://mail.python.org/mailman/listinfo/python-dev/>`_.
 
 
